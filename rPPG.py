@@ -7,7 +7,7 @@ from scipy.fft import rfft, rfftfreq
 from collections import deque
 
 # ========================================================
-# 1. POS ALGORITHM (versi diubah & direstruktur agar berbeda)
+# 1. POS ALGORITHM 
 # ========================================================
 def pos_projection(rgb_series, fps):
     rgb_series = np.array(rgb_series, dtype=np.float32)
@@ -172,3 +172,4 @@ cap.release()
 cv2.destroyAllWindows()
 plt.ioff()
 plt.show()
+
